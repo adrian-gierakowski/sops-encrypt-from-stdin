@@ -1,0 +1,3 @@
+creation_rules:
+  - path_regex: secrets/.*
+    gcp_kms: projects/YOUR_POJECT/locations/global/keyRings/YOUR_RING/cryptoKeys/YOUR_KEY
